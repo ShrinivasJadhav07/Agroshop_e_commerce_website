@@ -1,0 +1,111 @@
+{% extends 'app/base.html' %}
+{% load static %}
+{% block title %}Product-Details{% endblock title %}
+
+
+
+{% block main-content %}
+  
+  <div class="bg-light">
+    <div class="container">
+      <div class="row h-100 align-items-center">
+        <div class="col-lg-6">
+          <h1 class="display-4">About us page</h1>
+          <p class="lead text-muted mb-0">Welcome to our e-commerce platform for agricultural products! We are dedicated to providing our customers with the freshest, highest-quality produce available. Our mission is to connect farmers and growers with consumers in a way that benefits both parties. By cutting out the middleman, we can offer our customers competitive prices while ensuring that farmers receive fair compensation for their hard work.</p>
+        </div>
+        <div class="col-lg-6 d-none d-lg-block"><img src="{% static 'app/images/banner/aboutus01.png' %}" alt="" class="img-fluid"></div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="bg-white py-5">
+    <div class="container py-5">
+      <div class="row align-items-center mb-5">
+        <div class="col-lg-6 order-2 order-lg-1">
+          <h2 class="font-weight-light">Sustainability and Community: Our Commitment to Ethical Farming Practices and Local Sourcing</h2>
+          <p class="font-italic text-muted mb-4">Our platform offers a wide variety of agricultural products, including fruits, vegetables, grains, and more. We source our products from local farms whenever possible, and we prioritize sustainability and ethical farming practices. We believe that by supporting small-scale farmers, we can promote environmental stewardship and strengthen local communities.</p>
+        </div>
+        <div class="col-lg-5 px-5 mx-auto order-1 order-lg-2"><img src="{% static 'app/images/banner/aboutus02.png' %}" alt="" class="img-fluid mb-4 mb-lg-0"></div>
+      </div>
+      <div class="row align-items-center">
+        <div class="col-lg-5 px-5 mx-auto"><img src="{% static 'app/images/banner/aboutus03.png' %}" alt="" class="img-fluid mb-4 mb-lg-0"></div>
+        <div class="col-lg-6"><i class="fa fa-leaf fa-2x mb-3 text-primary"></i>
+          <h2 class="font-weight-light">Customer-Centered Values: Transparency, Information, and Convenience</h2>
+          <p class="font-italic text-muted mb-4">At our e-commerce platform, we value transparency and customer satisfaction above all else. We provide detailed information about each of our products, including origin, farming practices, and nutritional information. We also offer flexible payment and delivery options to ensure that our customers can easily access the products they need.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="bg-light py-5">
+    <div class="container py-5">
+      <div class="row mb-4">
+        <div class="col-lg-5">
+          <h2 class="display-4 font-weight-light">Our team</h2>
+          
+        </div>
+      </div>
+  
+      <div class="row text-center">
+        <!-- Team item-->
+        <div class="col-xl-3 col-sm-6 mb-5">
+          <div class="bg-white rounded shadow-sm py-5 px-4"><img src="{% static 'app/images/product/pratiksha.jpeg' %}" alt="" width="100" class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm">
+            <h5 class="mb-0">Pratiksha Gaikwad</h5>
+            <ul class="social mb-0 list-inline mt-3">
+              <li class="list-inline-item"><a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a></li>
+              <li class="list-inline-item"><a href="#" class="social-link"><i class="fab fa-twitter"></i></a></li>
+              <li class="list-inline-item"><a href="#" class="social-link"><i class="fab fa-instagram"></i></a></li>
+              <li class="list-inline-item"><a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a></li>
+            </ul>
+          </div>
+        </div>
+        <!-- End-->
+  
+        <!-- Team item-->
+        <div class="col-xl-3 col-sm-6 mb-5">
+            <div class="bg-white rounded shadow-sm py-5 px-4"><img src="{% static 'app/images/product/Shrinivas_Jadhav.jpeg' %}" alt="" width="100" class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm">
+              <h5 class="mb-0">Shrinivas Jadhav</h5>
+              <ul class="social mb-0 list-inline mt-3">
+                <li class="list-inline-item"><a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a></li>
+                <li class="list-inline-item"><a href="#" class="social-link"><i class="fab fa-twitter"></i></a></li>
+                <li class="list-inline-item"><a href="#" class="social-link"><i class="fab fa-instagram"></i></a></li>
+                <li class="list-inline-item"><a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a></li>
+              </ul>
+            </div>
+          </div>
+        <!-- End-->
+  
+        <!-- Team item-->
+        <div class="col-xl-3 col-sm-6 mb-5">
+            <div class="bg-white rounded shadow-sm py-5 px-4"><img src="{% static 'app/images/product/prajwal.jpeg' %}" alt="" width="100" class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm">
+              <h5 class="mb-0">Prajwal Holkar</h5>
+              <ul class="social mb-0 list-inline mt-3">
+                <li class="list-inline-item"><a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a></li>
+                <li class="list-inline-item"><a href="#" class="social-link"><i class="fab fa-twitter"></i></a></li>
+                <li class="list-inline-item"><a href="#" class="social-link"><i class="fab fa-instagram"></i></a></li>
+                <li class="list-inline-item"><a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a></li>
+              </ul>
+            </div>
+          </div>
+        <!-- End-->
+  
+        <!-- Team item-->
+        <div class="col-xl-3 col-sm-6 mb-5">
+            <div class="bg-white rounded shadow-sm py-5 px-4"><img src="{% static 'app/images/product/reset.png' %}" alt="" width="100" class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm">
+              <h5 class="mb-0">Khushi Hargunani</h5>
+              <ul class="social mb-0 list-inline mt-3">
+                <li class="list-inline-item"><a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a></li>
+                <li class="list-inline-item"><a href="#" class="social-link"><i class="fab fa-twitter"></i></a></li>
+                <li class="list-inline-item"><a href="#" class="social-link"><i class="fab fa-instagram"></i></a></li>
+                <li class="list-inline-item"><a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a></li>
+              </ul>
+            </div>
+          </div>
+        <!-- End-->
+  
+      </div>
+    </div>
+  </div>
+
+
+{% endblock main-content %}
